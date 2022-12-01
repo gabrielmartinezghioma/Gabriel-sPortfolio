@@ -654,6 +654,7 @@ ul {
     flex-direction: row;
     background-color: var(--color-white);
     padding-left: 15px;
+    padding-right: 15px;
     border-radius: 15px;
   }
 
