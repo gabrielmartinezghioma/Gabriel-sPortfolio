@@ -153,6 +153,10 @@ ul {
     margin: 5px;
   }
 
+  .nav__button, .nav__button--cross:hover{
+    cursor: pointer;
+  }
+
   .nav__button--imgCross{
     width: 32px;
     height: 32px;
