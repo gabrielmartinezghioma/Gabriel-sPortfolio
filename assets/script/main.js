@@ -11,4 +11,14 @@ navButtonCross.addEventListener("click", () => {
    navDiv.classList.toggle("nav__button--togle")
 });
 
+document
+   .querySelector(".nav__div")
+   .addEventListener("click", (event) => {
+      if (event.target.classList.contains("nav__ul--a")) {
+         navDiv.classList.toggle("nav__button--togle")
+      } else if (event.target.classList.contains("nav__ul--aHome")) {
+         navDiv.classList.toggle("nav__button--togle")
+      }
+   })
+
 
