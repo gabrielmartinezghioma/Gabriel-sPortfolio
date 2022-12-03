@@ -93,7 +93,8 @@ ul {
 
   .nav__button--img:hover {
     cursor: pointer;
-    opacity: 0.5;
+    width: 26px;
+    transition: width 0.2s;
   }
 
   .nav {
