@@ -104,12 +104,10 @@ ul {
   }
 
   .nav__button {
-    background-color: var(--color-white);
     border: none;
     margin: 15px;
     display: block;
     justify-content: flex-end;
-    background-color: var(--color-white);
     position: fixed;
   }
 
