@@ -1,6 +1,14 @@
- const navButton = document.querySelector(".nav__button");
- const navUl = document.querySelector(".nav__ul");
+ const navButtonMenu = document.querySelector(".nav__button");
+ const navDiv = document.querySelector(".nav__div");
 
- navButton.addEventListener("click", ()=>{
-    navUl.classList.toggle("nav__button--togle")
+ navButtonMenu.addEventListener("click", ()=>{
+    navDiv.classList.toggle("nav__button--togle")
  });
+
+ const navButtonCross = document.querySelector(".nav__button--cross");
+
+
+
+ navButtonCross.addEventListener("click", ()=>{
+   navDiv.classList.toggle("nav__button--togle")
+});
