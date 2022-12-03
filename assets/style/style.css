@@ -196,6 +196,13 @@ ul {
     transition: color 0.5s;
   }
 
+  .nav__ul--aHome:hover {
+    box-shadow: none;
+    color: var(--color-dark);
+    transition: color 0.5s;
+  }
+
+
   .header {
     margin: auto;
     display: grid;
@@ -743,17 +750,6 @@ ul {
     text-decoration: none;
     margin-top: 25px;
     font-size: 16px; 
-  }
-
-  .nav__ul--a:hover {
-    box-shadow: none;
-    transition: color 0.5s;
-  }
-
-  .nav__ul--aHome:hover {
-    box-shadow: none;
-    color: var(--color-dark);
-    transition: color 0.5s;
   }
 
   .header {
